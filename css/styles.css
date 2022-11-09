@@ -1,0 +1,105 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --bgd-white:#ffffff;
+    --bgd-darkgrey:#2F303A;
+    --bgd-grey:#F5F4FA;
+    --logo-color:#000000;
+   
+} 
+
+
+body {
+    background-color: var(--bgd-white);
+
+    font-family: 'Roboto', sans-serif;
+}
+/*+ ще один шрифт */
+
+.logo {
+    color: var(--accent-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo-header {
+    color: var(--logo-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* .button {
+    font-family: inherit;
+} */
+
+/* li {
+    list-style: none;
+} */
+
+/* Header */
+
+
+
+
+/* Hero */
+.hero {
+    background-color:var(--bgd-darkgrey);
+}
+
+.hero-title {
+    color:var(--bgd-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em; 
+    text-transform: uppercase;
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+
+/* Наша команда */
+.team {
+    background-color: var(--bgd-grey);
+}
+
+
+
+/* Футер */
+.contacts {
+    background-color: var(--bgd-darkgrey);
+}
+
+.logo-footer {
+    color: var(--bgd-white);
+}
+
+.address-link,
+.contacts-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.address-link {
+    color:var(--bgd-white);
+}
+
+.contacts-link {
+    color: var(--footer-text-color);
+}
